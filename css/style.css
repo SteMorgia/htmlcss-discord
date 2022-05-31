@@ -111,22 +111,51 @@ body{
     align-items: center;
 }
 
-.debug .grande{
-    background-color: blue;
-}
-
 .grande{
     width: 40%;
     height: 80%;
-}
-
-.debug .piccolo{
-    background-color: darksalmon;
+    justify-content: flex-end;
+    display:flex;
 }
 
 .piccolo{
-    width: 30%;
+    width: 20%;
     height: 80%;
+    padding: 30px;
+}
+
+.contenitore.piccolo>h2{
+    font-size:40px;
+}
+
+.contenitore.piccolo>p{
+    margin-top: 50px;
+    line-height: 24px;
+}
+
+.contenitore_unico>h2{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.contenitore_unico>p{
+    text-align: center;
+    padding: 30px 220px;
+}
+
+.ultimo_main{
+    text-align: center;
+}
+
+.ultimo_main>span{
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-size:150%;
+}
+
+.contenitore_unico>img{
+    padding-left: 230px;
 }
 
 .debug .seconda, .quarta{
@@ -139,18 +168,19 @@ body{
 
 .quarta{
     height: 1000px;
-    display:flex;
-    justify-content: center;
 }
 
 .contenitore_unico{
     height: 90%;
     width: 70%;
-    align-self: center;
+    margin:0 auto
 }
 
-.debug .contenitore_unico{
-    background-color: darkgreen;
+.bottone.main{
+    margin: 0 auto;
+    background-color:#628BF7 ;
+    display:block;
+    margin-top:20px;
 }
 
 /* qui finiscono stilizzazioni per il main */
@@ -188,6 +218,11 @@ footer{
 
 .info{
     width: 30%;
+}
+
+.info>h2{
+    font-size: 40px;
+    color: #255EE9;
 }
 
 .debug .navigazione{
