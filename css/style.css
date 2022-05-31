@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.top-header{
+    height: 60px;
+    display: flex;
+}
+
+.debug .top-header{
+    background-color: aquamarine;
+}
+
+.link.header ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+}
+
+.link.header li{
+    padding: 0px 5px;
+}
+
+.link.header a{
+    padding:10px;
+}
+
+.header{
+    
+    margin: 10px 0px;
+    background-color: orange;
+    border: 2px dotted;               
+    width: calc(80% / 3);
+    display: flex;
+    align-items: center;
+
+}
+
+.container-header{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo, .login{
+    width: 300px;
+}
+
+.link{
+    justify-content: space-around;
+}
+
+.login{
+    justify-content: flex-end;
+}
+
+/*qui finiscono le stilizzazioni per il top header */
+
+.debug .main-header{
+    background-color: darkblue;
+}
+
+.debug .presentazione{
+    background-color: darkorchid;
+}
+
+.main-header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.presentazione{
+    width: 50%;
+    height: 80%;
+    align-self:center;
+}
+
+/* qui finiscono stilizzazioni header */
+
+.sezione{
+    display: flex;
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug .grande{
+    background-color: blue;
+}
+
+.grande{
+    width: 40%;
+    height: 80%;
+}
+
+.debug .piccolo{
+    background-color: darksalmon;
+}
+
+.piccolo{
+    width: 30%;
+    height: 80%;
+}
+
+.debug .seconda, .quarta{
+    background-color: lightgrey;
+}
+
+.seconda{
+    flex-direction: row-reverse;
+}
+
+.quarta{
+    height: 1000px;
+    display:flex;
+    justify-content: center;
+}
+
+.contenitore_unico{
+    height: 90%;
+    width: 70%;
+    align-self: center;
+}
+
+.debug .contenitore_unico{
+    background-color: darkgreen;
+}
+
+/* qui finiscono stilizzazioni per il main */
+
+.debug footer{
+    background-color: black;
+    height: 600px;
+}
+
+footer{
+    width: 100%;
+    
+    
+}
+.contenitore_footer{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    border: 2px dotted;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom:30px;
+    margin:auto;
+}
+
+.main_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.debug .info{
+    height: 400px;
+    background-color: coral;
+}
+
+.info{
+    width: 30%;
+}
+
+.debug .navigazione{
+    height: 400px;
+    background-color:lightseagreen; 
+    border: dotted 2px white;
+}
+
+.navigazione{
+    width: calc(70% / 4);
+
+}
+
+hr{
+    color: lightgrey;
+}
+
+.ultima_sezione{
+    display: flex;
+    height: 50px;
+    align-items:flex-end;
+}
+
+.finale_footer{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug .finale_footer{
+    height: 30px;
+    background-color: lawngreen;
+}
+
+.debug .logo_footer{
+    background-color: darksalmon;
+    border: 1px dotted black;
+    width: 50px;
+    height: 20px;
+}
+
+.debug .bottone_footer{
+    background-color: darksalmon;
+    border: 1px dotted black;
+    width: 50px;
+    height: 20px;
+}
+   
